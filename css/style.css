@@ -1,6 +1,6 @@
 /* Reset */
 
-*, 
+*,
 *::before,
 *::after {
     box-sizing: border-box;
@@ -64,6 +64,8 @@ nav {
 
 /* Main sections style */
 
+/* TOP */
+
 .top {
     height: 500px;
     background-color: #00008B;
@@ -75,6 +77,8 @@ nav {
     background-color: #EE82EE;
     margin: 0 300px;
 }
+
+/* MID */
 
 .midbox {
     height: 500px;
@@ -116,4 +120,42 @@ nav {
 
 .midrev {
     background-color: #D3D3D3;
+}
+
+/* BIG */
+
+.big {
+    height: 1000px;
+    background-color: #D3D3D3;
+    padding-top: 50px;
+}
+
+.macro {
+    height: 900px;
+    background-color: #228B22;
+}
+
+/* BOT */
+
+.bot {
+    background-color: #23272A;
+}
+
+.botbox {
+    height: 500px;
+    padding-top: 30px;
+}
+
+.botcolleft {
+    height: 450px;
+    border: 3px dashed black;
+    background-color: #F08080;
+    flex-grow: 2;
+}
+
+.botcol {
+    height: 450px;
+    border: 3px dashed white;
+    background-color: #20B2AA;
+    flex-grow: 1;
 }
