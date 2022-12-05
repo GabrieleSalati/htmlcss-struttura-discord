@@ -53,6 +53,7 @@ header {
 .h-column {
     border: 3px dashed black;
     flex-grow: 1;
+    text-align: center;
 }
 
 nav {
@@ -158,4 +159,26 @@ nav {
     border: 3px dashed white;
     background-color: #20B2AA;
     flex-grow: 1;
+}
+
+/* Footer style */
+
+footer {
+    background-color: #23272A;
+    border-top: 2px solid white;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.controls {
+    height: 80px;
+    background-color: #7FFFD4;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    background-color: #FFB6C1;
+    border: 3px dashed black;
+    padding: 10px;
 }
